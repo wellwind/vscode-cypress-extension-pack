@@ -1,0 +1,44 @@
+{
+  "name": "vscode-cypress-extension-pack",
+  "displayName": "Cypress Extension Pack",
+  "description": "The cypress extension pack that recommends by Cypress.io",
+  "publisher": "mikehuang",
+  "scripts": {
+    "vsce:login": "npx vsce login mikehuang",
+    "vsce:publish": "npx vsce publish",
+    "vsce:publish:patch": "vsce publish patch",
+    "vsce:publish:minor": "vsce publish minor",
+    "vsce:publish:major": "vsce publish major",
+    "vsce:package": "vsce package"
+  },
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "keywords": [
+    "cypress",
+    "code snippets"
+  ],
+  "categories": [
+    "Snippets",
+    "Extension Packs",
+    "Other"
+  ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wellwind/vscode-schematics-snippets.git"
+  },
+  "extensionPack": [
+    "JosefBiehler.cypress-fixture-intellisense",
+    "Shelex.vscode-cy-helper",
+    "andrew-codes.cypress-snippets",
+    "CliffSu.cypress-snippets",
+    "tnrich.vscode-extension-open-cypress",
+    "chrisbreiding.test-utils"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0"
+  }
+}
