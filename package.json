@@ -27,7 +27,7 @@
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wellwind/vscode-schematics-snippets.git"
+    "url": "https://github.com/wellwind/vscode-cypress-extension-pack.git"
   },
   "extensionPack": [
     "JosefBiehler.cypress-fixture-intellisense",
